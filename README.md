@@ -2,11 +2,12 @@
 # 🚀 Dockerize a versão do **Whaticket 6.0.0**
 
 <hr>
-## 🖥️💿 Tutorial para instalação do Portainer 🖥️💿 ## <br>
+## 🖥️💿 Baseado no Conteúdo Disponibilizado pelo Canal Fabricando sua Ideia 🖥️💿 ## <br>
   
- <br>[Link do Repositório](https://github.com/ramontrndd/portainer)
-
+https://www.youtube.com/watch?v=XmUewsMQMqQ
 ---
+
+Outra alternativa em https://github.com/launcherbr/docker-whaticket6.0.0
 
 ## ⚠️ **ATENÇÃO** ⚠️
 
