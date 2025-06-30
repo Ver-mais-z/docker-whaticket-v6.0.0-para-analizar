@@ -97,7 +97,7 @@ services:
         - "traefik.http.routers.whaticket_frontend.entrypoints=websecure"
         - "traefik.http.routers.whaticket_frontend.tls.certresolver=leresolver"
         - "traefik.http.routers.whaticket_frontend.service=whaticket_frontend"
-        - "traefik.http.services.whaticket_frontend.loadbalancer.server.port=3000"
+        - "traefik.http.services.whaticket_frontend.loadbalancer.server.port=3250"
         - "traefik.http.middlewares.frontend_headers.headers.customResponseHeaders.X-Frame-Options=SAMEORIGIN"
         - "traefik.http.middlewares.frontend_headers.headers.customResponseHeaders.X-Content-Type-Options=nosniff"
         - "traefik.http.middlewares.frontend_headers.headers.customResponseHeaders.X-XSS-Protection=1; mode=block"
