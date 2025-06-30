@@ -83,6 +83,8 @@ services:
     environment:
       - REACT_APP_BACKEND_URL=https://api.suaempresa.com.br # Informe a URL pública do backend
       - REACT_APP_HOURS_CLOSE_TICKETS_AUTO=24
+    ports:
+      - "3250:3250"
     networks:
       - whaticket
       - traefik_public # Informe sua rede pública do traefik
