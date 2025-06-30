@@ -93,7 +93,7 @@ services:
       - "traefik.http.middlewares.frontend_headers.headers.customResponseHeaders.Cache-Control=no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
       - "traefik.http.middlewares.frontend_compress.compress=true"
       - "traefik.http.middlewares.frontend_body_size.buffering.maxRequestBodyBytes=20971520"
-      - "traefik.http.services.whaticket_frontend.loadbalancer.server.port=3000"
+      - "traefik.http.services.whaticket_frontend.loadbalancer.server.port=3250"
       - "traefik.http.routers.whaticket_frontend.middlewares=frontend_headers@docker,frontend_compress@docker,frontend_body_size@docker"
     restart: always
     networks:
