@@ -1,3 +1,4 @@
+#\backend\Dockerfile
 FROM node:20 AS build-deps
 
 RUN apt-get update && apt-get install -y wget -y wget postgresql-client nano

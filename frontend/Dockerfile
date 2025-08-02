@@ -1,4 +1,5 @@
 # Etapa de build
+#\frontend\Dockerfile
 FROM node:20-alpine AS build-deps
 WORKDIR /usr/src/app
 COPY package*.json package-lock.json ./

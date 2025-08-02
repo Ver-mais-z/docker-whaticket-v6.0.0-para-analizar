@@ -1,5 +1,5 @@
 #!/bin/sh
-
+#\frontend\add-env-vars.sh
 _replaceFrontendEnvVars() {
     echo "Buscando arquivos com valores para alterar..."
     # Debug - mostrar valores das variaveis

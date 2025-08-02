@@ -3,7 +3,7 @@ services:
     build:
       context: ./backend
       dockerfile: ./Dockerfile
-    image: whaticket-backend:latest
+    image: whaticket-backend:meu-6.1
     environment:
       - DB_DIALECT=${DB_DIALECT}
       - DB_HOST=${DB_HOST}
@@ -40,7 +40,7 @@ services:
     build:
       context: ./frontend
       dockerfile: ./Dockerfile
-    image: whaticket-frontend:latest
+    image: whaticket-frontend:meu-6.1
     environment:
       - BACKEND_URL=${BACKEND_URL}
       - REACT_APP_BACKEND_URL=${REACT_APP_BACKEND_URL}

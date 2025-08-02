@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#\backend\add-env-vars.sh
 # Funcao para substituir variaveis
 _replaceBackendEnvVars() {
     echo "Buscando arquivos com valores para alterar...."
